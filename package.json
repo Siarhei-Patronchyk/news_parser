@@ -1,0 +1,25 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Siarhei Patronchyk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "cheerio": "^0.19.0",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.67.0",
+    "express-handlebars": "2.0.1",
+    "cron": "1.0.0"
+  },
+  "devDependencies": {},
+  "description": "parser for nasha niva, onliner and tutby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siarhei-Patronchyk/news_parser.git"
+  }
+}

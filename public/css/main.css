@@ -1,0 +1,42 @@
+* {
+	font-family: sans-serif;
+}
+body {
+	background-color: #eeeeee;
+}
+.btn-padding {
+	padding: 10px 15px;
+}
+.heading {
+	padding: 10px 0 0;
+}
+.news-item {
+	border: solid 1px white;
+	border-radius: 5px;
+	background-color: #ccc;
+	padding: 5px;
+}
+.nn-item {
+	min-height: 238px;
+}
+.tutby-item {
+	min-height: 180px;
+}
+.onliner-item {
+	min-height: 255px;
+}
+.img-center {
+	display: inline-block;
+}
+p {
+	color: black;
+}
+.carousel-indicators-pos {
+	position: fixed;
+	top: 90vh;
+	left: 50%;
+	height: 20px;
+}
+li.active {
+	background-color: red!important;
+}
