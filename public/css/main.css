@@ -4,12 +4,6 @@
 body {
 	background-color: #eeeeee;
 }
-.btn-padding {
-	padding: 10px 15px;
-}
-.heading {
-	padding: 10px 0 0;
-}
 .news-item {
 	border: solid 1px white;
 	border-radius: 5px;
@@ -23,20 +17,32 @@ body {
 	min-height: 180px;
 }
 .onliner-item {
-	min-height: 255px;
+	min-height: 258px;
 }
 .img-center {
 	display: inline-block;
 }
-p {
-	color: black;
-}
-.carousel-indicators-pos {
+.heading-pos {
 	position: fixed;
-	top: 90vh;
-	left: 50%;
-	height: 20px;
+	top: 0;
+	left: 0;
 }
-li.active {
-	background-color: red!important;
+.news-header-pos {
+	margin-top: 25px;
+	text-align: center;
+}
+#sync2 div.owl-item {
+	text-align: center;
+}
+#sync2 .owl-wrapper-outer {
+	background-color: #fff;
+	opacity: 0.8;
+}
+.myButton {
+	height: 40px;
+	padding: 10px;
+	cursor: pointer;
+}
+.synced .myButton {
+	background-color: #ccc;
 }
