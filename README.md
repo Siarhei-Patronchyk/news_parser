@@ -1,5 +1,5 @@
-#news_parser 
-#Install
-#npm install
-#Start
-#npm start
+###News Parser
+####How to start? 
+```sh
+npm install
+npm start
